@@ -13,9 +13,25 @@
 <img src="/winUI.png?raw=true" alt="" height="200px">
 <img src="/dbrows.png?raw=true" alt="" height="200px">
 </div>
+Для сохранения в базу необходима таблица в Mysql
+
+```sql
+CREATE TABLE td_TemperatureLog (
+  id bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  UID varchar(23) DEFAULT NULL,
+  value float(4, 2)  DEFAULT NULL,
+  date timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  UNIQUE INDEX UUID (date, UID, id)
+)
+ENGINE = MYISAM
+CHARACTER SET utf8
+COLLATE utf8_general_ci;
+```
 
 # Настройки клиента
 Настройка клиента производится в Properties
+
 ```xml
 <Settings>
     <Setting Name="ComPort" Type="System.String" Scope="User">
