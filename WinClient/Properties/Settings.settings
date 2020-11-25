@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WinClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ComPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">COM4</Value>
+    </Setting>
+    <Setting Name="DBHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10.110.0.0</Value>
+    </Setting>
+    <Setting Name="DBLogin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DBLOGIN</Value>
+    </Setting>
+    <Setting Name="DBPwd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DBPWD</Value>
+    </Setting>
+    <Setting Name="DBBaseName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DBNAME</Value>
+    </Setting>
+    <Setting Name="TimeOut" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="IsStartDefault" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ContineUID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">28-C0-17-5D-05-00-00-DC,28-C0-17-5D-05-00-00-DC</Value>
+    </Setting>
+    <Setting Name="MaxTempAlarm" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">21</Value>
+    </Setting>
+    <Setting Name="EmailFrom" Type="System.String" Scope="User">
+      <Value Profile="(Default)">example@hostname.kz</Value>
+    </Setting>
+    <Setting Name="EmailTo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">exampleusername@hostname.kz</Value>
+    </Setting>
+    <Setting Name="EmailServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mail.hostname.kz</Value>
+    </Setting>
+    <Setting Name="EmailLogin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">exampleusername</Value>
+    </Setting>
+    <Setting Name="EmailPwd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">exampleusernamepass</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
